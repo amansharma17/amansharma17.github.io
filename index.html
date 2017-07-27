@@ -40,6 +40,13 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Hind:400,600,300' rel='stylesheet' type='text/css'>
         <!-- Included CSS Files -->
         <link rel="stylesheet" href="css/app.min.css">
+		<style>
+			.coursework {margin:0 0 0.5rem;}
+			.coursework h3.project__title{font-weight:300;font-size:.9375rem;color:#3d3d50;font-family:"Hind",sans-serif}
+			.para {margin:0 0 2rem;} .para522{margin:0 0 0.5rem;}
+			.para511{font-weight:300;font-size:.9375rem;color:#3d3d50;font-family:"Hind",sans-serif}
+			.experience p.experience__time{color:#3d3d50;}
+		</style>
     </head>
     <body>
         <section class="main-container">
@@ -79,7 +86,7 @@
                 </div>
                 <div class="block block--right">
                     <div class="block__inner">
-                        <div class="content content--about">
+                        <div class="content content--about para">
                             <div class="content__tag-wrapper">
                                 <h2 class="content__tag">About me</h2>
                             </div>
@@ -88,26 +95,45 @@
                             </div>
                         </div>												
 						
-						<div class="content content--about">
+						<div class="content content--about para">
                             <div class="content__tag-wrapper">
-                                <h2 class="content__tag">Course Work</h2>
+                                <h2 class="content__tag">CourseWork</h2>
                             </div>
-                            <div class="content__inner">
-                                <p>
-									<em>Advanced Data Structures & Algorithms</em>
-									<em>CAD for VLSI Systems</em>
-									<em>High-Performance Parallel Programming</em>
-									<em>Introduction to Research</em>
-									<em>Linear Algebra and Random Processes</em>
-									<em>Logic and Combinatorics for Computer Science</em>
-									<em>Mobile and Cloud Security</em>
-									<em>Modern Compilers-Theory&Practice</em>
-									<em>Program Analysis</em>
-								</p>
+							<div class="content__inner">
+                                <div class="project coursework"><h3 class="project__title">Advanced Data Structures & Algorithms</h3></div>
+                                <div class="project coursework"><h3 class="project__title">CAD for VLSI Systems</h3></div>
+                                <div class="project coursework"><h3 class="project__title">High-Performance Parallel Programming</h3></div>
+                                <div class="project coursework"><h3 class="project__title">Introduction to Research</h3></div>
+                                <div class="project coursework"><h3 class="project__title">Linear Algebra and Random Processes</h3></div>
+                                <div class="project coursework"><h3 class="project__title">Logic and Combinatorics for Computer Science</h3></div>
+                                <div class="project coursework"><h3 class="project__title">Mobile and Cloud Security</h3></div>
+                                <div class="project coursework"><h3 class="project__title">Modern Compilers-Theory & Practice</h3></div>
+                                <div class="project coursework"><h3 class="project__title">Program Analysis</h3></div>
                             </div>
                         </div>					
-						
-						<div class="content content--projects">
+						<div class="content content--exp para">
+                            <div class="content__tag-wrapper">
+                                <h2 class="content__tag">Experience</h2>
+                            </div>
+                            <div class="content__inner">
+                                <div class="experience">
+                                    <h3 class="experience__agency"><a href="#">Startup (Anonymous)</a></h3>
+                                    <p class="experience__time">January 2017 — Present</p>
+                                    <p class="experience__location">IIT Madras</p>
+                                    <p class="experience__role">Full Stack Android Developer</p>
+									<h3 class="experience__agency"><a href="#">Customate</a></h3>
+                                    <p class="experience__time">January 2016 — June 2016</p>
+                                    <p class="experience__location">India</p>
+                                    <p class="experience__role">Full Stack Web Developer</p>
+									<h3 class="experience__agency"><a href="#">Avnet Services - Business Solutions</a></h3>
+                                    <p class="experience__time">July 2011 — September 2015</p>
+                                    <p class="experience__location">Chennai, India</p>
+                                    <p class="experience__role">Senior Consultant</p>
+                                </div>
+                            </div>
+                        </div>						
+
+						<div class="content content--projects para">
                             <div class="content__tag-wrapper">
                                 <h2 class="content__tag">Hackathons</h2>
                             </div>
@@ -130,7 +156,7 @@
                             </div>
                         </div>	
 
-						<div class="content content--about">
+						<div class="content content--about para">
                             <div class="content__tag-wrapper">
                                 <h2 class="content__tag">Talks</h2>
                             </div>
@@ -140,38 +166,23 @@
                             </div>
                         </div>
 										
-                        <div class="content content--projects">
+                        <div class="content content--projects para">
                             <div class="content__tag-wrapper">
                                 <h2 class="content__tag">CERTIFICATION</h2>
                             </div>
                             <div class="content__inner">
-                                <div class="project">
-                                    <h3 class="project__title">IBM Certified Solution Developer - WebSphere Portal 7.0</h3>
+                                <div class="project para522">
+                                    <h3 class="project__title para511">IBM Certified Solution Developer - WebSphere Portal 7.0</h3>
 								</div>
-								<div class="project">
-								    <h3 class="project__title">IBM Certified Application Developer - WebSphere Commerce V7.0</h3>
+								<div class="project para522">
+								    <h3 class="project__title para511">IBM Certified Application Developer - WebSphere Commerce V7.0</h3>
 								</div>
-								<div class="project">
-								    <h3 class="project__title">IBM Certified Database Associate -- DB2 9 Fundamentals</h3>
+								<div class="project para522">
+								    <h3 class="project__title para511">IBM Certified Database Associate -- DB2 9 Fundamentals</h3>
 								</div>
                             </div>
                         </div>
-                        <div class="content content--exp">
-                            <div class="content__tag-wrapper">
-                                <h2 class="content__tag">Where?</h2>
-                            </div>
-                            <div class="content__inner">
-                                <div class="experience">
-                                    <h3 class="experience__agency"><a href="#"></a></h3>
-                                    <p class="experience__time">September 2015 — Present</p>
-                                    <p class="experience__location"></p>
-                                    <p class="experience__role">XYZ</p>
-                                    <p class="experience__time">January — June 2015</p>
-                                    <p class="experience__location">India</p>
-                                    <p class="experience__role">Internship abroad</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
